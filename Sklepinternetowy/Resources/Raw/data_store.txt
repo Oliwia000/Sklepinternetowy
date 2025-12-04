@@ -1,0 +1,11 @@
+id;nazwa;obrazek;cena;kategoria;dostepnaIlosc
+1;Laptop Dell XPS 13;https://dell24.pl/photos/6278cdc0611d9.jpg;4999;Laptopy;15
+2;Monitor Samsung 27';https://image.ceneostatic.pl/data/products/149176667/i-samsung-27-r500-lc27r500fhpxen.jpg;899;Monitory;10
+3;Klawiatura Logitech MX Keys;https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/55/5503798/Klawiatura-LOGITECH-MX-Keys-S-Grafitowy-920-011587-1-front.jpg;399;Klawiatury;20
+4;Myszka Razer DeathAdder V2 X HyperSpeed;https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/33/3337222/Mysz-RAZER-DeathAdder-V2-X-HyperSpeed-1.jpg;299;Myszy;30
+5;Słuchawki Sony WH-1000XM4;https://m.media-amazon.com/images/I/71ARBeyX02L.jpg;799;Słuchawki;12
+6;Laptop HP Spectre x360;https://m.media-amazon.com/images/I/51k4j6kS6fL.jpg;5399;Laptopy;8
+7;Monitor LG UltraGear 32';https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/71/7164930/Monitor-LG-32GS60QC-B-1.jpg;749;Monitory;6
+8;Klawiatura Corsair K95;https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/93/938390/784089_11_f.jpg;699;Klawiatury;9
+9;Myszka Logitech G502;https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/16/1689013/Mysz-LOGITECH-G502-Hero-1.jpg;349;Myszy;25
+10;Słuchawki Bose QuietComfort 45';https://m.media-amazon.com/images/I/51HHABMPoVL.jpg;1099;Słuchawki;7
