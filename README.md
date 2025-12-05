@@ -1,6 +1,7 @@
 
      Stan początkowy
-    <img width="539" height="786" alt="1" src="https://github.com/user-attachments/assets/d40578e9-f7ec-4d25-bc64-f7ddaea8a23f" />
+  <img width="539" height="786" alt="1" src="https://github.com/user-attachments/assets/faee6aae-6460-4349-aad4-bb66840c751d" />
+
 
    Alert
    <img width="468" height="790" alt="2" src="https://github.com/user-attachments/assets/b7bd27bf-3ac3-405f-9409-4aa8fa0ac18a" />
