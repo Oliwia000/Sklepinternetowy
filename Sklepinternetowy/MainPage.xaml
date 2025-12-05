@@ -10,19 +10,16 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Frame CornerRadius="20" BorderColor="#CCCCCC" Padding="10">
-
                         <VerticalStackLayout Spacing="10">
                             <Image HeightRequest="120"
                                    WidthRequest="200"
                                    Aspect="AspectFit"
                                    HorizontalOptions="Center"
                                    Source="{Binding Obrazek}"/>
-
                             <Label Text="{Binding Nazwa}"
                                    FontSize="25"
                                    FontAttributes="Bold"
                                    HorizontalOptions="Center"/>
-
                             <Label Text="{Binding Kategoria, StringFormat='Kategoria : {0}'}"
                                    FontSize="20"
                                    TextColor="Black"/>
@@ -35,7 +32,6 @@
                                        TextColor="Black"/>
                                 <Label Text=" zł" FontSize="20" TextColor="Black"/>
                             </HorizontalStackLayout>
-
                             <HorizontalStackLayout>
                                 <Label Text="Dostępna ilość w magazynie : " FontSize="18" TextColor="Black"/>
                                 <Label Text="{Binding Ilość}"
@@ -43,7 +39,6 @@
                                        FontAttributes="Bold"
                                        TextColor="Black"/>
                             </HorizontalStackLayout>
-
                             <HorizontalStackLayout Spacing="10" HorizontalOptions="Center" Padding="2">
                                 <Button Text="Zakup"
                                         BackgroundColor="Green"
@@ -51,7 +46,6 @@
                                         WidthRequest="150"
                                         CornerRadius="15"
                                         Clicked="BuyClicked"/>
-
                                 <Button Text="Zwróć"
                                         BackgroundColor="HotPink"
                                         TextColor="White"
@@ -59,13 +53,10 @@
                                         CornerRadius="15"
                                         Clicked="ReturnClicked"/>
                             </HorizontalStackLayout>
-
                         </VerticalStackLayout>
-
                     </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
     </ScrollView>
-
 </ContentPage>
