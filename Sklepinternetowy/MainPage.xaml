@@ -9,7 +9,7 @@
         <CollectionView ItemsSource="{Binding Produkty}" Margin="10">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Frame CornerRadius="20" BorderColor="#CCCCCC" Padding="15">
+                    <Frame CornerRadius="20" BorderColor="#CCCCCC" Padding="10">
 
                         <VerticalStackLayout Spacing="10">
                             <Image HeightRequest="120"
@@ -19,43 +19,43 @@
                                    Source="{Binding Obrazek}"/>
 
                             <Label Text="{Binding Nazwa}"
-                                   FontSize="26"
+                                   FontSize="25"
                                    FontAttributes="Bold"
                                    HorizontalOptions="Center"/>
 
-                            <Label Text="{Binding Kategoria, StringFormat='Kategoria: {0}'}"
-                                   FontSize="16"
+                            <Label Text="{Binding Kategoria, StringFormat='Kategoria : {0}'}"
+                                   FontSize="20"
                                    TextColor="Black"/>
 
                             <HorizontalStackLayout>
                                 <Label Text="Cena: " FontSize="18" TextColor="Black"/>
                                 <Label Text="{Binding Cena}" 
-                                       FontSize="18"
+                                       FontSize="20"
                                        FontAttributes="Bold"
                                        TextColor="Black"/>
-                                <Label Text=" zł" FontSize="18" TextColor="Black"/>
+                                <Label Text=" zł" FontSize="20" TextColor="Black"/>
                             </HorizontalStackLayout>
 
                             <HorizontalStackLayout>
-                                <Label Text="Dostępna ilość w magazynie: " FontSize="18" TextColor="Black"/>
+                                <Label Text="Dostępna ilość w magazynie : " FontSize="18" TextColor="Black"/>
                                 <Label Text="{Binding Ilość}"
-                                       FontSize="18"
+                                       FontSize="20"
                                        FontAttributes="Bold"
                                        TextColor="Black"/>
                             </HorizontalStackLayout>
 
-                            <HorizontalStackLayout Spacing="15" HorizontalOptions="Center" Padding="5">
+                            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center" Padding="2">
                                 <Button Text="Zakup"
                                         BackgroundColor="Green"
                                         TextColor="White"
-                                        WidthRequest="120"
+                                        WidthRequest="150"
                                         CornerRadius="15"
                                         Clicked="BuyClicked"/>
 
                                 <Button Text="Zwróć"
                                         BackgroundColor="HotPink"
                                         TextColor="White"
-                                        WidthRequest="120"
+                                        WidthRequest="150"
                                         CornerRadius="15"
                                         Clicked="ReturnClicked"/>
                             </HorizontalStackLayout>

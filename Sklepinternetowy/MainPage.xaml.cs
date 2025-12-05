@@ -27,7 +27,6 @@ namespace Sklepinternetowy
                     firstLine = false;
                     continue;
                 }
-
                 var parts = line.Split(';');
 
                 Produkty.Add(new Produkt
@@ -38,8 +37,7 @@ namespace Sklepinternetowy
                     Kategoria = parts[4],
                     Ilość = int.Parse(parts[5])
                 });
-            }
-        }
+            }   }
         private void BuyClicked(object sender, EventArgs e)
         {
             var button = sender as Button;
